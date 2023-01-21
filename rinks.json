@@ -4,7 +4,7 @@
         "name": "Askerhallen",
         "lat": 59.8254162,
         "long": 10.4462771,
-        "capasity": -1,
+        "capacity": -1,
         "address": "Brages vei 2, 1387 Asker"
     },
     {
@@ -12,7 +12,7 @@
         "name": "Bergenshallen",
         "lat": 60.3539773,
         "long": 5.3591415,
-        "capasity": -1,
+        "capacity": -1,
         "address": "Vilhelm Bjerknes' vei 24, 5081 Bergen"
     },
     {
@@ -20,7 +20,7 @@
         "name": "Bugården Ishall",
         "lat": 59.1348243,
         "long": 10.1950954,
-        "capasity": -1,
+        "capacity": -1,
         "address": "Bugårdsparken, 3214 Sandefjord"
     },
     {
