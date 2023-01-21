@@ -1,0 +1,306 @@
+[
+    {
+        "id": "Askerhallen",
+        "name": "Askerhallen",
+        "lat": 59.8254162,
+        "long": 10.4462771,
+        "capasity": -1,
+        "address": "Brages vei 2, 1387 Asker"
+    },
+    {
+        "id": "Bergenshallen",
+        "name": "Bergenshallen",
+        "lat": 60.3539773,
+        "long": 5.3591415,
+        "capasity": -1,
+        "address": "Vilhelm Bjerknes' vei 24, 5081 Bergen"
+    },
+    {
+        "id": "Bugårdsparken",
+        "name": "Bugården Ishall",
+        "lat": 59.1348243,
+        "long": 10.1950954,
+        "capasity": -1,
+        "address": "Bugårdsparken, 3214 Sandefjord"
+    },
+    {
+        "id": "CC-Amfi",
+        "name": "CC-Amfi",
+        "lat": 60.8009203,
+        "long": 11.0377218,
+        "capacity": -1,
+        "address": "Kornsilovegen 54, 2316 Hamar"
+    },
+    {
+        "id": "Dalgård Ishall",
+        "name": "Dalgård Ishall",
+        "lat": 63.3941281,
+        "long": 10.3455516,
+        "capacity": -1,
+        "address": "Dalgårdvegen 10, 7024 Trondheim"
+    },
+    {
+        "id": "DNB Arena",
+        "name": "DNB Arena",
+        "lat": 58.9535298,
+        "long": 5.6904198,
+        "capacity": -1,
+        "address": "Ishockeyveien 1, 4021 Stavanger"
+    },
+    {
+        "id": "Eidsiva Arena",
+        "name": "Eidsiva Arena",
+        "lat": 61.1231976,
+        "long": 10.4713505,
+        "capacity": -1,
+        "address": "Nordsetervegen 43, 2618 Lillehammer"
+    },
+    {
+        "id": "",
+        "name": "Fosenhallen",
+        "lat": 63.7634326,
+        "long": 9.8133075,
+        "capacity": -1,
+        "address": "Alf Nebbs gate 7, 7160 Botngård"
+    },
+    {
+        "id": "Furuset Forum",
+        "name": "Furuset Forum",
+        "lat": 59.940239,
+        "long": 10.896173,
+        "capacity": -1,
+        "address": "Søren Bulls Vei 4, 1051 Oslo"
+    },
+    {
+        "id": "Gjøvik olympiske fjellhall",
+        "name": "Gjøvik Olympiske Fjellhall",
+        "lat": 60.7932819,
+        "long": 10.6846241,
+        "capacity": -1,
+        "address": "Heimdals gate 2, 2821 Gjøvik"
+    },
+    {
+        "id": "Grunerhallen",
+        "name": "Grünerhallen",
+        "lat": 59.926885,
+        "long": 10.7650631,
+        "capacity": -1,
+        "address": "Seilduksgata 30, 0553 Oslo"
+    },
+    {
+        "id": "Halden Ishall",
+        "name": "Halden Ishall",
+        "lat": 59.1370563,
+        "long": 11.4082798,
+        "capacity": -1,
+        "address": "Blokkveien 39, 1785 Halden"
+    },
+    {
+        "id": "Holmen Ishall",
+        "name": "Holmen Ishall",
+        "lat": 59.853101,
+        "long": 10.4840049,
+        "capacity": -1,
+        "address": "Vogellund 26, 1394 Nesbru"
+    },
+    {
+        "id": "Hølonda Utebane",
+        "name": "Hølonda Utebane",
+        "lat": 63.1685685,
+        "long": 10.1123564,
+        "capacity": -1,
+        "address": "Hølondvegen 1926, 7212 Korsvegen"
+    },
+    {
+        "id": "Idda Arena",
+        "name": "Idda Arena",
+        "lat": 58.1465139,
+        "long": 7.9726044,
+        "capacity": -1,
+        "address": "Møllevannsveien 36, 4616 Kristiansand"
+    },
+    {
+        "id": "Ishall i Moss",
+        "name": "Moss Ishall",
+        "lat": 59.4258635,
+        "long": 10.6800543,
+        "capacity": -1,
+        "address": "Øreveien 39, 1523 Moss"
+    },
+    {
+        "id": "Jarhallen",
+        "name": "Jarhallen",
+        "lat": 59.9174481,
+        "long": 10.6186268,
+        "capacity": -1,
+        "address": "Storengveien 28, 1358 Jar"
+    },
+    {
+        "id": "Jordal Amfi",
+        "name": "Jordal Amfi",
+        "lat": 59.9111225,
+        "long": 10.7840894,
+        "capacity": -1,
+        "address": "Jordalgata 12, 0657 Oslo"
+    },
+    {
+        "id": "Kongsberghallen",
+        "name": "Kongsberghallen",
+        "lat": 59.6804745,
+        "long": 9.6318729,
+        "capacity": -1,
+        "address": "Numedalsvegen 80, 3617 Kongsberg"
+    },
+    {
+        "id": "Kongsvinger Ishall",
+        "name": "Kongsvinger Ishall",
+        "lat": 60.1943937,
+        "long": 11.9895191,
+        "capacity": -1,
+        "address": "Brugata 47, 2212 Kongsvinger"
+    },
+    {
+        "id": "Leangen Arena",
+        "name": "Leangen Arena",
+        "lat": 63.4277979,
+        "long": 10.4662091,
+        "capacity": -1,
+        "address": "Tungavegen 3, 7047 Trondheim"
+    },
+    {
+        "id": "Leangenhallen - Ishall 2 ungdomshall",
+        "name": "Leangen Ungdomshall",
+        "lat": 63.4274973,
+        "long": 10.4642635,
+        "capacity": -1,
+        "address": "Tungavegen 3, 7047 Trondheim"
+    },
+    {
+        "id": "Løren hallen",
+        "name": "Løren Ishall",
+        "lat": 59.9353794,
+        "long": 10.8042282,
+        "capacity": -1,
+        "address": "Spireaveien 1, 0580 Oslo"
+    },
+    {
+        "id": "Lørenskog Ishall",
+        "name": "Lørenskog Ishall",
+        "lat": 59.9259464,
+        "long": 10.9601134,
+        "capacity": -1,
+        "address": "Solheimveien 91E, 1473 Lørenskog"
+    },
+    {
+        "id": "Manglerud ishall",
+        "name": "Manglerud Ishall",
+        "lat": 59.8956422,
+        "long": 10.8263104,
+        "capacity": -1,
+        "address": "Plogveien 24, 0681 Oslo"
+    },
+    {
+        "id": "Nordkraft Arena",
+        "name": "Nordkarft Arena",
+        "lat": 68.4357861,
+        "long": 17.4120701,
+        "capacity": -1,
+        "address": "Bolagsgata 20, 8514 Narvik"
+    },
+    {
+        "id": "Runnirinken",
+        "name": "Runnirinken",
+        "lat": 60.1288157,
+        "long": 11.4763633,
+        "capacity": -1,
+        "address": "Runnivegen 22, 2150 Årnes"
+    },
+    {
+        "id": "Schjongshallen",
+        "name": "Schjongshallen",
+        "lat": 60.1573419,
+        "long": 10.2625055,
+        "capacity": -1,
+        "address": "Ringeriksgata 11, 3503 Hønefoss"
+    },
+    {
+        "id": "Siddishallen",
+        "name": "Siddishallen",
+        "lat": 58.9536785,
+        "long": 5.6927346,
+        "capacity": -1,
+        "address": "Ishockeyveien 7, 4021 Stavanger"
+    },
+    {
+        "id": "Skedsmo Ishall",
+        "name": "Skedsmo Ishall",
+        "lat": 60.0046482,
+        "long": 11.0393075,
+        "capacity": -1,
+        "address": "Steinbråteveien 5, 2020 Skedsmokorset"
+    },
+    {
+        "id": "Ski Ishall",
+        "name": "Ski Ishall",
+        "lat": 59.7166735,
+        "long": 10.8514288,
+        "capacity": -1,
+        "address": "Teglveien 4, 1400 Ski"
+    },
+    {
+        "id": "Sparta Amfi",
+        "name": "Sparta Amfi",
+        "lat": 59.2806987,
+        "long": 11.087067,
+        "capacity": -1,
+        "address": "Sarpsborgveien 10, 1711 Sarpsborg"
+    },
+    {
+        "id": "Stavanger Isbane 2",
+        "name": "Stavanger Isbane 2",
+        "lat": 58.953685,
+        "long": 5.6928822,
+        "capacity": -1,
+        "address": "Ishockeyveien 7, 4021 Stavanger"
+    },
+    {
+        "id": "Stjernehallen",
+        "name": "Stjernehallen",
+        "lat": 59.2257948,
+        "long": 10.9455077,
+        "capacity": -1,
+        "address": "Utfarten 16, 1605 Fredrikstad"
+    },
+    {
+        "id": "Storhamar Ishall",
+        "name": "Storhamar Ishall",
+        "lat": 60.8011694,
+        "long": 11.0364244,
+        "capacity": -1,
+        "address": "Kornsilovegen 54, 2316 Hamar"
+    },
+    {
+        "id": "Tønsberg Ishall",
+        "name": "Tønsberg Ishall",
+        "lat": 59.2821479,
+        "long": 10.4091735,
+        "capacity": -1,
+        "address": "Stadion 12, 3111 Tønsberg"
+    },
+    {
+        "id": "Ungdomshallen Stampesletta",
+        "name": "Ungdomshallen Stampesletta",
+        "lat": 61.1223788,
+        "long": 10.4719053,
+        "capacity": -1,
+        "address": "Sigrid Undsets veg 12, 2615 Lillehammer"
+    },
+    {
+        "id": "Varner Arena",
+        "name": "Varner Arena",
+        "lat": 59.8246998,
+        "long": 10.4473177,
+        "capacity": -1,
+        "address": "Bleikerveien 71, 1387 Asker"
+    }
+]
