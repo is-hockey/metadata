@@ -136,6 +136,14 @@
         "address": "Storengveien 28, 1358 Jar"
     },
     {
+        "id": "Jessheim is- og flerbrukshall",
+        "name": "Jessheim is- og flerbrukshall",
+        "lat": 60.1485723,
+        "long": 11.1892819,
+        "capacity": -1,
+        "address": "Aktivitetsveien 9, 2050 Jessheim"
+    },
+    {
         "id": "Jordal Amfi",
         "name": "Jordal Amfi",
         "lat": 59.9111225,
