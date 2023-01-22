@@ -24,6 +24,14 @@
         "address": "Bugårdsparken, 3214 Sandefjord"
     },
     {
+        "id": "Bærum Ishall",
+        "name": "Bærum Ishall",
+        "lat": 59.9105742,
+        "long": 10.5022119,
+        "capacity": -1,
+        "address": "Hauger Skolevei 5, 1351 Rud"
+    },
+    {
         "id": "CC-Amfi",
         "name": "CC-Amfi",
         "lat": 60.8009203,
