@@ -1,12 +1,6 @@
 import json
 import re
 
-import re
-import logging
-
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
 def customSort(word):
     # Define the alphabet used for sorting
     alphabet = list(" AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzÆæÄäØøÖöÅå-’'`!?*&+/.,:;")
