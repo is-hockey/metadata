@@ -1,31 +1,47 @@
 import json
 import re
 
+import re
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 def customSort(word):
-    # Crazy Norwegian Sort
-    alphabet = list(
-        " AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzÆæÄäØøÖöÅå-’'`!?*&+/.,:;"
-    )
-    d = re.findall("(\d+)", word)
-    # Custom handling of ints
-    if d:
-        w = word
-        w2 = []
-        for a in d:
-            p = w.split(a, 1)
-            w = p[1]
-            w2.append(p[0])
-            w2.append(int(a))
-        w2.append(w)
-        res = []
-        for e in w2:
-            if isinstance(e, int):
-                res.append(len(alphabet) + e)
+    # Define the alphabet used for sorting
+    alphabet = list(" AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzÆæÄäØøÖöÅå-’'`!?*&+/.,:;")
+    
+    # Find all occurrences of digits in the word
+    digits = re.findall("(\d+)", word)
+    
+    # Custom handling of digits
+    if digits:
+        remaining_word = word
+        sorted_word = []
+        
+        # Split the word at each digit and append the parts to the sorted word list
+        for digit in digits:
+            parts = remaining_word.split(digit, 1)
+            remaining_word = parts[1]
+            sorted_word.append(parts[0])
+            sorted_word.append(int(digit))
+        
+        # Append the remaining part of the word
+        sorted_word.append(remaining_word)
+        
+        # Convert characters and digits to numerical values based on the alphabet
+        result = []
+        for element in sorted_word:
+            if isinstance(element, int):
+                result.append(len(alphabet) + element)
             else:
-                for l in e:
-                    res.append(alphabet.index(l))
-        return res
-    return [alphabet.index(c) for c in word]
+                for char in element:
+                    result.append(alphabet.index(char))
+        
+        return result
+    
+    # If no digits are found, sort the word based on the alphabet
+    return [alphabet.index(char) for char in word]
 
 with open("rinks.json") as f:
     data = json.load(f)
