@@ -52,8 +52,10 @@ sorted_names = sorted(names, key=lambda word: customSort(word))
 errors = False
 for index in range(len(names)):
     if sorted_names[index] != names[index]:
-        print(index, names[index], "is in the wrong location!")
+        print("*" * 10, index, names[index], "is in the wrong location!")
         errors = True
+    else:
+        print(index, names[index], "is in the correct location!")
 
 if errors:
     exit(1)
